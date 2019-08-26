@@ -1,0 +1,69 @@
+.dot {
+    background-image: radial-gradient(#625757 3%, #332F2F 15%);
+    background-position: 0 0;
+    background-size: 20px 20px;
+    height: 450px;
+    max-width: 100%;
+    margin: auto;
+    padding-top: 50px;
+
+
+    &__row {
+        margin: auto;
+        width: 50%;
+        height: 350px;
+        display: flex;  
+        color: white;
+        
+        
+        &--left {
+            width: 100%;
+            height: auto;
+            background:url("https://www.fg-a.com/wallpapers/b-w-vortex-1280.jpg");
+            padding-top: 50px;
+            &--h2 {
+                margin: auto;
+                max-width: 75%;
+            }
+            &--p {
+                margin: auto;
+                max-width: 75%;
+                font-size: 10px;
+                padding-top: 20px;
+                line-height: 1.4;
+            }    
+            
+        }
+        &--right{
+            width: 100%;
+            height: auto;
+            // background: url("../assets/blackman.JPG");
+            // background-size: cover;
+            // background-repeat: no-repeat;
+            &--img {
+                width: 200px;
+                height: -webkit-fill-available;
+            }
+            
+        }
+    }
+  }
+  .column {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    height: auto;
+}
+  
+@media (max-width : 768px){
+    .column{
+        display: grid;
+    }
+    .dot{
+    height: 670px;
+    &__row{
+        width: 50%;
+        height: 650px;
+    }
+    }
+}
