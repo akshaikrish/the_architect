@@ -1,0 +1,44 @@
+.carousel-indicators 
+{
+    position: fixed;
+    top: 430px;
+    margin-left: 5%;
+    margin-right: 0;
+    width: 370px;
+    z-index: 13;
+    li{
+        color: #ffffff;
+        opacity: 1;
+        font-size: 20px;
+        text-indent:0;
+        width:50px;
+        height: 40px;
+        border:none;
+        background-color: transparent;
+        
+        
+        a {
+            color: #ffffff;
+            font-size: 18px;
+            &:hover {
+                // border-bottom: 1px solid #ffffff;
+                text-decoration: none;
+                background: transparent;
+            }
+        }
+        
+    }
+    .active {
+        a {
+            color: #ffffff;
+            font-weight: bold;  
+            border-bottom: 1px solid #ffffff;          
+        } 
+    }
+   
+}
+.carousel-inner {
+    img {
+        height: 550px;
+    }
+}
