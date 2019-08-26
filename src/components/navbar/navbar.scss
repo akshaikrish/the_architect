@@ -1,34 +1,32 @@
-.all{
-    height: 555px;
-    position: relative;
-    z-index:  10000;
-    background-image: url('https://cdn.pixabay.com/photo/2016/10/20/18/35/sunrise-1756274_1280.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-family: Arial Narrow;
-  }
+// .all{
+//     height: 55px;
+//     position: relative;
+//     top: 0;
+//     z-index:  10000;
+//     font-family: Arial Narrow;
+//   }
   
-  .overlay{
-    background:rgba(0,0,0,.5);
-    position:fixed;
-    left:0;
-    top:0;
-    bottom:0;
-    right:0;
-    width:100%;
-    height:100%;
-    overflow:hidden;
-  }
+  // .overlay{
+  //   background:rgba(0,0,0,.5);
+  //   position:fixed;
+  //   left:0;
+  //   top:0;
+  //   bottom:0;
+  //   right:0;
+  //   width:100%;
+  //   height:100%;
+  //   overflow:hidden;
+  // }
   
   .navbar {
     width: 100%;
-    position: relative;
+    position: absolute;
+    top: 0;
   }
   
   .navbar .menu-btn {
     display: none;
+    z-index: 3;
   }
   
   .navbar .menu-item {
@@ -38,6 +36,7 @@
     position: absolute;
     right: 0px;
     top: 20px;
+    z-index: 3;
   }
   
   .navbar .menu-item a {
