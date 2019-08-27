@@ -19,7 +19,8 @@
         
         a {
             color: #ffffff;
-            font-size: 18px;
+            font-size: 12px;
+            padding-bottom: 7px;
             &:hover {
                 // border-bottom: 1px solid #ffffff;
                 text-decoration: none;
@@ -39,7 +40,7 @@
 }
 .whiteline {
     border-bottom: 1px solid #ffffff;
-    bottom: 7vw;
+    bottom: 90px;
     left: 0;
     margin-left: auto;
     margin-right: auto;
@@ -50,7 +51,7 @@
 .portfolio {
     letter-spacing: 3px;
     color: #ffffff;
-    bottom: 70px;
+    bottom: 75px;
     right: 100px;
     font-weight: 600;
     margin-left: auto;
@@ -68,6 +69,16 @@
         margin-top: 0 !important;
         height: 550px;
         left: 0 !important;
+    }
+    h1 {
+        letter-spacing: 0.5px;
+        position: relative;
+        z-index: 1;
+        bottom: 320px;
+        max-width: 35%;
+        line-height: 1;
+        font-weight: 600;
+        left: 170px;
     }
 }
 @media (max-width : 425px) {

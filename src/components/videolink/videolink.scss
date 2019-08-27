@@ -1,22 +1,15 @@
-.bs-example{
-    margin: 20px;
-    border: 2px solid #333;
-    border-radius: 27px;
-    padding: 8px;
-    width: 53px;
-}
 .modal-content iframe{
     margin: 0 auto;
     display: block;
 }
 
 .popup {
-    min-height: 140px;
+    min-height: 180px;
     max-width: 100%;
     margin: auto;
     background: #ecebe9;
     &__ul {
-        padding-top: 20px;
+        padding-top: 40px;
         display: flex;
         max-width: 70%;
         margin: auto;
@@ -32,15 +25,17 @@
             max-width: 100%;
             font-weight: 700;
         }
-        &--btn {
-            font-size: 24px;
-            padding-left: 7px;
-            border-radius: 64px;
-            color: black;
-            &:hover {
-                text-decoration: none;
-                color: black;
-            }
+        &--playbtn{
+            padding: 5px 13px;
+            font-size: 2rem;
+            border: 2px solid;
+            border-radius: 50%;
+        }
+        &--btn{
+            padding: 15px;
+            background: none;
+            border: none;
+            outline: none!important;
         }
         &--p {
             max-width: 400px;
@@ -63,6 +58,7 @@
         &--h3 {
             font-size: 15px;
             text-align: left;
+            margin-left: 0;
         }
         &--p {
             font-size: 8px;
