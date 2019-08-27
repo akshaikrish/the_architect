@@ -1,6 +1,6 @@
 .container {
     max-width: 100% !important;
-    background: #f1f1f1;
+    background: #ecebe9;
   }
 
 .footer {
@@ -31,7 +31,16 @@
         }
     }
 }
-
+.copyright {
+    &--span {
+        margin-bottom: 30px;
+        position: relative;
+        bottom: 20px;
+        left: 320px;
+        font-size: 9px;
+        font-weight: 300;
+    }
+}
 @media (max-width: 768px) {
     .footer {
         max-width: 70%;
@@ -47,6 +56,15 @@
             &--icons {
                 display: grid;
             }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .copyright {
+        text-align: center;   
+        &--span{
+            left: 0;
         }
     }
 }
