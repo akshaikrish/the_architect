@@ -114,6 +114,11 @@ html, body, .grid-container { height: 100%; margin: 0; }
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr !important;
     grid-template-areas: "area1" "area2" "area3" "area4" "area5" "area6" "area7" !important;
   }
+  .imagegrid {
+    img {
+      width: 90%;
+    }
+  }
 }
 
 @media (max-width : 767px) and (min-width : 469px) {
