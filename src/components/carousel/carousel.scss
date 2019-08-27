@@ -37,6 +37,27 @@
     }
    
 }
+.whiteline {
+    border-bottom: 1px solid #ffffff;
+    bottom: 7vw;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    right: 0;
+    width: 150px;
+}
+.portfolio {
+    letter-spacing: 3px;
+    color: #ffffff;
+    bottom: 70px;
+    right: 100px;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+}
+
 .carousel {
     height: 550px;
 }

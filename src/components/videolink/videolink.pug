@@ -5,7 +5,7 @@ section.popup
         li(style="margin: 0")
             .bs-example
                 // Button HTML (to Trigger Modal)
-                a.popup__ul--btn(href='#myModal' data-toggle='modal')
+                a.popup__ul--btn(href='#myModal' data-toggle='modal' data-src="//www.youtube.com/embed/YE7VzlLtp-4")
                     | &#9656
                 // Modal HTML
                 #myModal.modal.fade
@@ -15,7 +15,7 @@ section.popup
                                 button.close(type='button' data-dismiss='modal' aria-hidden='true') &times;
                                 h4.modal-title YouTube Video
                             .modal-body
-                                iframe#cartoonVideo(width="460" height="315" src="//www.youtube.com/embed/YE7VzlLtp-4?autoplay=1&mute=1" allow="autoplay" frameborder="0" allowfullscreen="")
+                                iframe#cartoonVideo(width="460" height="315" src="" allow="autoplay" frameborder="0" allowscriptaccess="always" allowfullscreen="")
                             
         li
             p.popup__ul--p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
