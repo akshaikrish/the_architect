@@ -37,6 +37,9 @@
     }
    
 }
+.carousel {
+    height: 550px;
+}
 .carousel-inner {
     position: absolute;
     top: 0;
@@ -44,5 +47,22 @@
         margin-top: 0 !important;
         height: 550px;
         left: 0 !important;
+    }
+}
+@media (max-width : 425px) {
+    .carousel-item {
+        display: contents !important;
+    }
+    .carousel-inner {
+        position: relative;
+        img {
+            height: auto;
+        }
+    }
+    .carousel-indicators {
+        display: none !important;
+    }
+    .carousel {
+        height: auto;
     }
 }

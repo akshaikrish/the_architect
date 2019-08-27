@@ -1,4 +1,5 @@
 .dot {
+    position: relative;
     background-image: radial-gradient(#625757 3%, #332F2F 15%);
     background-position: 0 0;
     background-size: 20px 20px;
@@ -19,9 +20,10 @@
         &--left {
             width: 100%;
             height: auto;
-            background:url("https://www.fg-a.com/wallpapers/b-w-vortex-1280.jpg");
+            background:url("../../../dist/assets/gradient.png");
             padding-top: 50px;
             &--h2 {
+                text-align: left;
                 margin: auto;
                 max-width: 75%;
             }
@@ -32,6 +34,13 @@
                 padding-top: 20px;
                 line-height: 1.4;
             }    
+            &--img {
+                position: relative;
+                width: 70px !important;
+                padding-bottom: 100px !important;
+                margin-top: 25px !important;
+                left: 12% !important;
+            }
             
         }
         &--right{
@@ -41,7 +50,9 @@
             // background-size: cover;
             // background-repeat: no-repeat;
             &--img {
-                width: 200px;
+                left: 0 !important;
+                margin-top: 0 !important;
+                width: 100%;
                 height: -webkit-fill-available;
             }
             
@@ -60,10 +71,30 @@
         display: grid;
     }
     .dot{
-    height: 670px;
+        padding-bottom: 50px;
+    height: auto;
     &__row{
-        width: 50%;
-        height: 650px;
+        width: 60%;
+        height: auto;
+        &--left {
+            height: max-content;
+        }
+        &--right {
+            height: auto !important;
+            &--img {
+                height: auto !important;
+            }
+        }
     }
+    }
+}
+
+@media (max-width : 425px) {
+    .dot {
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+        &__row {
+            width: 90%;
+        }
     }
 }
